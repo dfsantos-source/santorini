@@ -14,19 +14,13 @@ https://youtu.be/cVoETrJT9x4
 
 ## Update Board Overview
 
-Methods:
-int updateUpLeft()
-int updateUpRight()
-int updateUp()
-int updateLeft()
-int updateRight()
-int updateDownLeft()
-int updateDown()
-int updateDownRight()
-
-These methods find the available spaces for each directional. 
+Update methods find the available spaces for each directional. 
 They may also update the spaces along the way.
 We can utilize these methods for both player and AI.
+
+Method is used for initializing game state from the beginning. This sets up the game for it to be played.
+
+A method is also used for running the game, which updates the game state until a game-over condition is found. 
 
 ## Calculate Score Overview
 
